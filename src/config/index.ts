@@ -1,0 +1,81 @@
+export const navigations = [
+  "Home",
+  "About Us",
+  "Events",
+  "Gallery",
+  "Divisions",
+  "Contact Us",
+];
+
+export const photos = [
+  {
+    src: "/amsa-event-1.png",
+    width: 1200,
+    height: 800,
+    alt: "AMSA Event 1",
+    title: "Annual Conference 2024",
+  },
+  {
+    src: "/amsa-event-1.png",
+    width: 1000,
+    height: 700,
+    alt: "AMSA Workshop",
+    title: "Medical Workshop",
+  },
+  {
+    src: "/amsa-event-1.png",
+    width: 1100,
+    height: 750,
+    alt: "Student Discussion",
+    title: "Group Discussion",
+  },
+  {
+    src: "/amsa-event-1.png",
+    width: 1300,
+    height: 850,
+    alt: "AMSA Volunteering",
+    title: "Community Health Program",
+  },
+  {
+    src: "/amsa-event-1.png",
+    width: 1250,
+    height: 820,
+    alt: "Medical Research",
+    title: "Scientific Research Symposium",
+  },
+  {
+    src: "/amsa-event-1.png",
+    width: 1080,
+    height: 720,
+    alt: "Health Campaign",
+    title: "Public Health Awareness",
+  },
+  {
+    src: "/amsa-event-1.png",
+    width: 1150,
+    height: 780,
+    alt: "Networking Event",
+    title: "Meet & Greet Night",
+  },
+  {
+    src: "/amsa-event-1.png",
+    width: 1050,
+    height: 690,
+    alt: "Training Session",
+    title: "Skill Development Workshop",
+  },
+  {
+    src: "/amsa-event-1.png",
+    width: 1200,
+    height: 800,
+    alt: "Guest Lecture",
+    title: "Insights from Industry Experts",
+  },
+  {
+    src: "/amsa-event-1.png",
+    width: 1020,
+    height: 680,
+    alt: "Fundraising Event",
+    title: "Charity Gala",
+  },
+];

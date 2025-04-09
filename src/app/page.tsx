@@ -9,6 +9,7 @@ import { Icons } from "@/components/Icons";
 import Lenis from "lenis";
 import { useEffect } from "react";
 import { easeInOut, motion } from "framer-motion";
+import OrganizationStructure from "@/components/OrganizationalChart";
 
 const heroVariants = {
   hidden: { opacity: 0, y: 20 }, // Start slightly below
@@ -240,6 +241,7 @@ const Home = () => {
           iusto cumque <br /> voluptatibus deserunt ipsa, ea rem nemo laborum
           accusantium ratione.
         </motion.p>
+        <OrganizationStructure />
       </section>
 
       {/* Events */}
@@ -275,14 +277,18 @@ const Home = () => {
               alt="AMSA activites"
               width={1920}
               height={1080}
-              className="w-full h-full object-cover rounded-xl"
+              className="w-full h-full object-cover rounded-xl brightness-50"
             />
             <div className="absolute bottom-8 left-8 w-[70%]">
-              <p className="font-semibold text-white text-5xl">Event #1</p>
+              <p className="font-semibold text-white text-5xl">IMSTC</p>
               <p className="text-white mt-4">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
-                quam similique perferendis qui, modi ex aut tempora illo
-                reprehenderit perspiciatis!
+                Indonesian Medical Student&apos;s Training and Competition
+                (IMSTC) is an annual event of AMSA Indonesia to provide members
+                with higher knowledge, skills, ability, and to motivate all
+                members of AMSA Indonesia to be able to create scientific
+                research and health promotion media that have high quality with
+                the three core philosophies of AMSA: Knowledge, Action, and
+                Friendship.
               </p>
             </div>
           </div>
@@ -294,10 +300,16 @@ const Home = () => {
               alt="AMSA activites"
               width={1920}
               height={1080}
-              className="w-full h-full object-cover rounded-xl"
+              className="w-full h-full object-cover rounded-xl brightness-50"
             />
-            <div className="absolute bottom-8 left-8 w-[70%]">
-              <p className="font-semibold text-white text-5xl">Event #2</p>
+            <div className="absolute bottom-8 left-8 w-[80%]">
+              <p className="font-semibold text-white text-4xl">NAE</p>
+              <p className="text-white mt-2 text-xs">
+                The National Action Event (NAE) AMSA-Indonesia 2024 is a
+                national-scale program hosted by AMSA-UMM, aiming to integrate
+                health education, community service, and industrial medicine to
+                promote holistic health and safety.
+              </p>
             </div>
           </div>
 
@@ -308,10 +320,16 @@ const Home = () => {
               alt="AMSA activites"
               width={1920}
               height={1080}
-              className="w-full h-full object-cover rounded-xl"
+              className="w-full h-full object-cover rounded-xl brightness-50"
             />
-            <div className="absolute bottom-8 left-8 w-[70%]">
-              <p className="font-semibold text-white text-5xl">Event #3</p>
+            <div className="absolute bottom-8 left-8 w-[80%]">
+              <p className="font-semibold text-white text-4xl">Work Meeting</p>
+              <p className="text-white mt-2 text-xs">
+                The AMSA UNDANA Work Meeting 2025 was successfully held with the
+                purpose of presenting and approving each division’s work
+                programs for the 2024/2025 term. All programs were discussed and
+                officially approved.
+              </p>
             </div>
           </div>
         </motion.div>
